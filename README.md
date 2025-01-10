@@ -1,0 +1,1 @@
+This repository demonstrates a race condition in a bash script that processes files. The script attempts to read the content of a file, but it may read inconsistent data if the file is modified between the time the script gets the file size and reads its content. The solution demonstrates a more robust approach to avoid this race condition.
